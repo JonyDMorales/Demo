@@ -1,0 +1,37 @@
+.login {
+  margin-top: 10%;
+}
+
+.card {
+  background: #333333;
+  color: white;
+  border-radius: 10px;
+
+  .card-title{
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  input{
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 3px solid transparent;
+  }
+
+  input:focus{
+    border: 3px solid red;
+  }
+
+  button{
+    border-radius: 20px;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+  }
+
+}
+
+
