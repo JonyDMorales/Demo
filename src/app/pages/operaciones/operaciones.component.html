@@ -1,10 +1,48 @@
-<div class="home d-flex align-content-between">
-  <div class="side py-2 px-2">
+<div class="home d-flex flex-md-row">
+  <div class="side">
     <app-sidemenu></app-sidemenu>
   </div>
 
-  <div class="contenido">
-    Form
+  <div class="container py-3 d-flex justify-content-center">
+  	<div class="card">
+  		<div class="card-body">
+  			<h5 class="card-title">Operación</h5>
+		    <form class="">
+			  <div class="form-group">
+			     <select class="form-control custom-select">
+				    <option selected>compra/venta</option>
+				    <option value="1">One</option>
+				    <option value="2">Two</option>
+				 </select>
+			  </div>
+			  <div class="form-group">
+			     <select class="form-control custom-select">
+				    <option selected>instrumento</option>
+				    <option value="1">One</option>
+				    <option value="2">Two</option>
+				 </select>
+			  </div>
+			  <div class="form-group ">
+			    <input type="number" class="form-control" placeholder="monto nominal">
+			  </div>
+			  <div class="form-group ">
+			    <input type="number" class="form-control" placeholder="tasa/sobre tasa">
+			  </div>
+			  <div class="form-group ">
+			    <input type="number" class="form-control" placeholder="precio">
+			  </div>
+			  <div class="form-group ">
+			    <input type="text" class="form-control" placeholder="fecha liquidación" onfocus="(this.type='date')"  onfocusout="(this.type='text')">
+			  </div>
+			  <div class="form-group ">
+			    <input type="text" class="form-control" placeholder="contraparte">
+			  </div>
+			  <div class="boton">
+			  	<button type="submit" class="btn btn-danger btn-lg">Crear</button>
+			  </div>
+			</form>
+		</div>
+	</div>
   </div>
 
 </div>

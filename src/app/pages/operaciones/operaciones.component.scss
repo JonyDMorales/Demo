@@ -1,0 +1,54 @@
+.home{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.contenido{
+	width: 100%;
+	height: 100%;
+}
+
+.card{
+
+	width: 70%;
+	height: 100%;
+	padding: 20px 40px 0 40px;
+	border-radius: 20px;
+
+	.card-title{
+		color: red;
+		font-size: 25px;
+	}
+
+	.boton{
+		text-align: right;
+	}
+
+	.custom-select{
+		border-radius: 20px;
+	}
+
+	.form-group{
+		margin-bottom: 30px;
+	}
+
+	input{
+		border-radius: 20px;
+	}
+
+	.btn{
+		border-radius: 20px;
+		
+	}
+}
+
+@media screen and (max-width: 800px){
+ .side{
+ 	display: none;
+ }
+ .container{
+ 	width: 100%;
+ }
+}
